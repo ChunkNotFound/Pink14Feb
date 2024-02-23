@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Pink14Feb",
+    "version": "1.0",
+    "description": "Change the color of February 14th on the GitHub contribution calendar to pink. Only for github.com/ChunkNotFound",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "Pink14@Feb.ruary"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://github.com/ChunkNotFound*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png"
+    }
+  }
+  
